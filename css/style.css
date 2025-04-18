@@ -1,0 +1,46 @@
+div.container h5{
+    color: gold;
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+
+}
+    
+
+    
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.card1,.card2,.card3,.card4 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 5px;
+    margin: 5px;
+    transition: all 0.3s ease-out;
+    background-color:rgb(234, 233, 233);
+    
+}
+
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+
+
+}
+
