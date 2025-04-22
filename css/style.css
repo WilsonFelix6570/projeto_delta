@@ -18,6 +18,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: #f4f4f4;
     text-align: center;
+
 }
 
 .row{
@@ -35,13 +36,13 @@ body{
     margin: 5px;
     transition: all 0.3s ease-out;
     background-color:rgba(230, 231, 232, 0.896);
+
     
+
 }
 
 .card1:hover,.card2:hover,.card3:hover,.card4:hover{
     transform: translateY(-5px);
     cursor: pointer;
-
-
 }
 
